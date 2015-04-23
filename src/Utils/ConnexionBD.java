@@ -37,15 +37,8 @@ public class ConnexionBD {
 		return connexion ;
 	}
 	
-	public void attachShutDownHook() {
-	    Runtime.getRuntime().addShutdownHook(new Thread() {
-	        @Override
-	        public void run() {
-	            System.out.println("EXIT");
-	        }
-	    });
-
-	}
+	
+	
 	
 
 }

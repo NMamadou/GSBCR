@@ -28,12 +28,7 @@ public class AppliCR {
 		new GuiAppliCR(modele,controleur) ;
 		
 		
-		db.attachShutDownHook();
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-		    e.printStackTrace();
-		}
+	
 	}
 
 }
